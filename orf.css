@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+body {
+	background-color: #5286c1;
+    width: 1000px
+}
+
+.Container {
+    margin-top: 20px;
+    margin-left: 25px;
+	width: 80%
+}
+
+.clear {
+    clear: both
+}
+
+header .img_wetter{
+    float: left;
+    width: 45%;
+    text-align: center;
+}
+
+header .img_wetter img{
+    width: 45%;
+}
+
+header .img_1{
+    float: left;
+    margin: 5px 0;
+    margin-left: 75px
+}
+
+header .img_2{
+    float: right;
+
+}
+
+nav {
+    height: 30px;
+    background: #4371a3;
+}
+
+nav ul {
+    list-style-type: none;
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 0
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-family: monospace;
+    transition: all 0.3s ease-in-out;
+}
+
+nav h4 {
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+    color: #aaa
+}
+
+.box {
+    background: #5d8dc5;
+    margin-bottom: 50px
+}
+
+.column_1 {
+    float: left;
+    width: 20%;
+    padding: 5px
+}
+
+.column_2 {
+    float: left;
+    width: 60%;
+     padding: 5px
+}
+
+.column_3 {
+    float: right;
+    width: 20%;
+     padding: 5px
+}
+
+.box_news {
+    margin: 0 auto
+}
+
+.box_news div {
+    margin: 20px 0
+}
+
+.box_news div h3{
+    float: left;
+    width: 150px;
+    color: #333;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: sans-serif
+}
+
+.box_news details {
+    margin-left: 150px
+}
+
+.box_news details summary {
+    margin: 5px 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.link_orf {
+    color: #333;
+    margin-left: 150px
+}
+
+footer {
+    height: 40px;
+    margin: 30px 00;
+    background: #16406b;
+    text-align: center;
+    font-weight: 500
+}
+
+footer .footer {
+    float: left;
+    margin-left: 50px
+}
+
+footer img {
+    float: right;
+    width: 80px;
+    margin-right: 20px
+}
+
+footer a {
+    line-height: 2.5;
+    margin: 5px;
+    text-decoration: none;
+    color: #eee
+}
+
+footer p {
+     line-height: 2.5;
+    color: #eee
+}
